@@ -3,7 +3,14 @@ Owner: research-lead
 Status: Draft
 Last updated: 2025-10-31
 
-# KnowledgeFlow - Stage 1: Planning & Validation
+# KnowledgeFlow
+
+![Version](https://img.shields.io/badge/version-3.1-blue)
+![Stage](https://img.shields.io/badge/stage-3-green)
+![CI](https://img.shields.io/github/actions/workflow/status/shekinahfire77/KnowledgeFlow/ci.yml?branch=master)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
+Privacy-first note-taking app with semantic intelligence for Windows.
 
 ## Overview
 
@@ -757,3 +764,43 @@ See `/docs/` for complete specifications, `/design/` for wireframes and design t
 ---
 
 **Stage 3 Status**: Complete - MVP scaffold finalized, ready for Stage 4 implementation.
+
+---
+
+## Stage 3.1: GitHub Setup & CI/CD
+
+**Status**: ✅ Complete
+**Release Date**: October 31, 2025
+
+### What's New in v3.1
+
+**Repository Infrastructure:**
+- ✅ GitHub repository created and published
+- ✅ MIT License added
+- ✅ Contributing guidelines (CONTRIBUTING.md)
+- ✅ GitHub Actions CI/CD workflow
+- ✅ Automated testing on push and PR
+- ✅ Issue tracking setup
+- ✅ Project milestones defined
+
+**CI/CD Pipeline:**
+- Automated linting (ESLint)
+- Type checking (TypeScript strict mode)
+- Unit tests (Vitest)
+- Build verification
+- Runs on every push and pull request
+
+**Developer Experience:**
+- Clear contribution guidelines
+- Issue templates for bugs and features
+- Pull request checklist
+- Code of conduct
+
+### Repository
+**URL**: https://github.com/shekinahfire77/KnowledgeFlow
+
+### Quick Links
+- [Issues](https://github.com/shekinahfire77/KnowledgeFlow/issues)
+- [Contributing](CONTRIBUTING.md)
+- [License](LICENSE)
+- [CI Status](https://github.com/shekinahfire77/KnowledgeFlow/actions)
