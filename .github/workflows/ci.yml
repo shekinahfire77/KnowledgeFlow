@@ -120,6 +120,7 @@ jobs:
       # Install dependencies
       - name: Install dependencies
         run: pnpm install
+        working-directory: ./app
 
       # Build the application
       - name: Build app
