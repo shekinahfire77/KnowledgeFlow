@@ -66,7 +66,7 @@ export function extractTodos(text: string): ExtractedTodo[] {
     }
 
     // Check for lines starting with action verbs (basic detection)
-    const actionMatch = line.match(/^[\s-]*(?:•|\*|\-)\s*((?:call|email|write|finish|complete|review|update|fix|implement|test|deploy)\s+.+)$/i);
+    const actionMatch = line.match(/^[\s-]*(?:•|\*|-)\s*((?:call|email|write|finish|complete|review|update|fix|implement|test|deploy)\s+.+)$/i);
     if (actionMatch) {
       const text = actionMatch[1].trim();
 
