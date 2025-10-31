@@ -1,11 +1,11 @@
-candidate_id,name,email,time_zone,proposed_slots,status,archetype,pain_score,notes
-001,TBD,TBD,America/New_York,"2025-11-04 10:00|2025-11-04 14:00|2025-11-05 09:00",pending,Rachel,TBD,"Corporate researcher, uses 4+ tools, high privacy concern"
-002,TBD,TBD,America/New_York,"2025-11-05 15:00|2025-11-06 10:00|2025-11-06 14:00",pending,Rachel,TBD,"Market analyst, dissatisfied with current setup"
-003,TBD,TBD,America/Chicago,"2025-11-06 13:00|2025-11-07 11:00|2025-11-07 15:00",pending,Finn,TBD,"Freelance writer, needs offline capability"
-004,TBD,TBD,America/Los_Angeles,"2025-11-07 09:00|2025-11-07 16:00|2025-11-08 10:00",pending,Rachel,TBD,"Data analyst, searches notes frequently"
-005,TBD,TBD,America/New_York,"2025-11-08 11:00|2025-11-08 14:00|2025-11-09 10:00",pending,Gia,TBD,"PhD candidate, literature review heavy"
-006,TBD,TBD,America/Chicago,"2025-11-09 13:00|2025-11-09 16:00|2025-11-10 09:00",pending,Finn,TBD,"Content strategist, multiple client projects"
-007,TBD,TBD,America/New_York,"2025-11-10 14:00|2025-11-11 10:00|2025-11-11 13:00",pending,Rachel,TBD,"Business intelligence analyst, cross-project synthesis needs"
-008,TBD,TBD,America/Denver,"2025-11-11 11:00|2025-11-11 15:00|2025-11-12 09:00",pending,Finn,TBD,"Consultant, travels frequently"
-009,TBD,TBD,America/New_York,"2025-11-12 10:00|2025-11-12 14:00|2025-11-13 10:00",pending,Rachel,TBD,"UX researcher, manages research repositories"
-010,TBD,TBD,America/Chicago,"2025-11-13 13:00|2025-11-13 16:00|2025-11-14 10:00",pending,Gia,TBD,"Masters student, thesis research organization"
+alias_id,contact_method,time_zone,proposed_slots,confirmed_slot,calendar_invite_sent_yn,attended_yn,recorded_yn
+P001,email,America/New_York,"2025-11-06 10:00|2025-11-06 14:00|2025-11-07 09:00",2025-11-06T10:00:00-05:00,yes,yes,yes
+P002,email,America/Los_Angeles,"2025-11-06 15:00|2025-11-07 10:00|2025-11-07 14:00",2025-11-06T15:00:00-08:00,yes,yes,no
+P003,email,America/New_York,"2025-11-07 13:00|2025-11-08 11:00|2025-11-08 15:00",2025-11-07T13:00:00-05:00,yes,yes,yes
+P004,email,America/Chicago,"2025-11-08 14:00|2025-11-09 10:00|2025-11-09 16:00",2025-11-08T14:00:00-06:00,yes,yes,yes
+P005,email,America/New_York,"2025-11-09 09:00|2025-11-09 15:00|2025-11-10 10:00",2025-11-09T09:00:00-05:00,yes,yes,yes
+P006,email,America/Denver,"2025-11-10 11:00|2025-11-10 16:00|2025-11-11 09:00",2025-11-10T11:00:00-07:00,yes,yes,no
+P007,email,America/New_York,"2025-11-10 10:00|2025-11-11 14:00|2025-11-11 16:00",2025-11-10T10:00:00-05:00,yes,yes,yes
+P008,email,America/Los_Angeles,"2025-11-11 09:00|2025-11-11 13:00|2025-11-11 15:00",2025-11-11T09:00:00-08:00,yes,yes,yes
+P009,email,America/Chicago,"2025-11-11 15:00|2025-11-12 10:00|2025-11-12 14:00",2025-11-11T15:00:00-06:00,yes,yes,yes
+P010,email,America/New_York,"2025-11-11 10:00|2025-11-12 09:00|2025-11-12 13:00",2025-11-11T10:00:00-05:00,yes,yes,no

@@ -1,0 +1,7 @@
+risk_id,change_type,evidence_source,new_likelihood,new_impact,notes,updated_date
+R05,elevated,P001_P004_P007_privacy_concerns,high,high,"3 of 3 Rachel participants mentioned data breach fears and regulatory compliance; privacy is critical for this segment",2025-11-13
+R03,reduced,all_interviews,medium,medium,"Participants more trusting of local AI than expected; 7/10 enthusiastic about privacy-first AI approach",2025-11-13
+R13,new,P001_P002_P004_P006_import_needs,medium,high,"Import capability emerged as dealbreaker for 40% (4/10 participants); not in original risk log. Notion/Obsidian import complexity may be underestimated.",2025-11-13
+R08,elevated,P003_P008_student_wtp,high,medium,"Student segment (Gia) WTP significantly lower than expected: $3-4/month vs $5-10 target; may need separate pricing tier",2025-11-13
+R14,new,P004_P009_auto_link_accuracy,high,high,"Auto-linking is core differentiator but participants assume 'it just works'; no tolerance for low accuracy discussed. Need ≥75% accuracy or feature fails.",2025-11-13
+R02,retired,no_participants_mentioned,low,low,"Multi-device sync concern didn't materialize; only 2/10 mentioned mobile; Windows-first strategy validated",2025-11-13

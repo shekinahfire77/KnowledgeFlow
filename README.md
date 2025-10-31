@@ -360,6 +360,183 @@ Research findings will be anonymized and may be shared publicly to demonstrate v
 
 ---
 
-**Stage 1 Status**: Documentation complete, ready for review and research execution.
+**Stage 1 Status**: Complete - Documentation finalized.
+
+**Stage 2 Status**: In progress - Problem Validation & User Research
+
+---
+
+## Stage 2: Problem Validation & User Research
+
+**Timeline**: 14 days (November 1-14, 2025)
+**Owner**: research-lead
+**Status**: Framework complete, ready for execution
+
+### Overview
+
+Stage 2 validates whether the problems identified in Stage 1 are real, severe, and represent viable market opportunities. Through screener surveys and semi-structured interviews, we test 10 hypotheses against measurable thresholds to make a data-driven GO/HOLD/PIVOT decision.
+
+### Research Approach
+
+**Method 1: Screener Survey**
+- Target: N ≥ 40 qualified responses
+- Platform: Google Forms or Typeform
+- Purpose: Recruit qualified interview participants and validate quota targets
+
+**Method 2: Semi-Structured Interviews**
+- Target: N = 10 participants (40-minute interviews each)
+- Segments: Rachel (3), Finn (3), Gia (2), Other (2)
+- Method: Video interviews with detailed note-taking and optional recording
+- Incentive: $25 Amazon gift card per completed interview
+
+### Validation Thresholds
+
+Stage 2 uses 6 core thresholds to determine GO/HOLD/PIVOT:
+
+| Threshold | Target | Measurement |
+|-----------|--------|-------------|
+| Problem frequency | ≥70% weekly collisions | How often participants experience fragmentation |
+| Pain severity (median) | ≥7/10 | Self-reported pain on 1-10 scale |
+| Switching intent | ≥50% likely+ | Willingness to try new solution (4-5 on 5-point scale) |
+| WTP median | $5-10/month | Stated willingness to pay |
+| WTP premium | ≥30% at ≥$7/mo | Percentage willing to pay premium price |
+| Differentiator resonance | ≥70% mention semantic/auto | What features resonate in concept card test |
+
+**Decision Rule:**
+- **GO**: ≥5 of 6 thresholds met → Proceed to Stage 3 (Solution Definition)
+- **HOLD**: 3-4 thresholds met → Additional research or refinement needed
+- **PIVOT**: ≤2 thresholds met → Reconsider segment, value prop, or problem focus
+
+### Stage 2 Documentation
+
+**Core Planning Documents (13-18):**
+- [13-stage2-research-brief.md](docs/13-stage2-research-brief.md) - Validation objectives and success criteria
+- [14-updated-research-plan.md](docs/14-updated-research-plan.md) - Detailed execution plan
+- [15-instrument-pack.md](docs/15-instrument-pack.md) - Screener, interview guide, consent forms
+- [16-recruitment-plan.md](docs/16-recruitment-plan.md) - Participant sourcing strategy
+- [17-consent-script.md](docs/17-consent-script.md) - Informed consent and ethics
+- [18-data-security-protocol.md](docs/18-data-security-protocol.md) - PII protection and privacy
+
+**Analysis Documents (19-24):**
+- [19-codebook.md](docs/19-codebook.md) - Qualitative coding schema
+- [20-affinity-map-notes.md](docs/20-affinity-map-notes.md) - Thematic synthesis
+- [21-analysis-report.md](docs/21-analysis-report.md) - Full validation results
+- [22-validation-dashboard.md](docs/22-validation-dashboard.md) - KPIs and threshold status
+- [23-decision-memo.md](docs/23-decision-memo.md) - GO/HOLD/PIVOT decision with rationale
+- [24-learnings-and-changes.md](docs/24-learnings-and-changes.md) - Deviations and insights
+
+### Repository Updates for Stage 2
+
+```
+/data/
+  interview-notes/           Individual participant notes (P001-P010)
+  transcripts/               Interview transcripts (anonymized)
+  artifacts/                 Charts and visualizations
+  raw/                       Raw survey exports (local only, not committed)
+
+  New CSV files:
+  respondents-master.csv     Participant tracking (PII redacted in repo)
+  screener-responses.csv     Cleaned screener data
+  coded-excerpts.csv         Qualitative coding results
+  pain-severity-scores.csv   Pain ratings by participant
+  wtp-estimates.csv          Willingness to pay data
+  segment-tags.csv           Segment classifications and scores
+  risks-updates.csv          Risk log updates from interviews
+  coding-schema.csv          Code definitions and frequencies
+
+/templates/
+  interview-notes-template.md      Structured interview documentation
+  transcript-summary-template.md   Key findings extraction
+  coding-schema-template.md        Code definition format
+  chart-notes-template.md          Visualization documentation
+  incentive-receipt-template.md    Participant compensation
+
+/process/
+  stage2-workflow.md               Day-by-day execution steps
+  acceptance-criteria-stage2.md    Completion requirements
+  qa-checklist-stage2.md           Pre-release quality checks
+```
+
+### Timeline (14 Days)
+
+| Days | Phase | Key Activities |
+|------|-------|----------------|
+| Day 1 (Nov 1) | Launch | Deploy screener, begin recruitment |
+| Days 2-3 (Nov 2-3) | Recruiting | Monitor responses, send reminders |
+| Day 4 (Nov 4) | Selection | Close screener, select participants |
+| Day 5 (Nov 5) | Scheduling | Confirm interviews, send calendar invites |
+| Days 6-11 (Nov 6-11) | Interviews | Conduct 10 interviews (1-2 per day) |
+| Day 12 (Nov 12) | Coding | Transcribe, code, develop codebook |
+| Day 13 (Nov 13) | Analysis | Affinity mapping, threshold calculations, charts |
+| Day 14 (Nov 14) | Decision | Write decision memo, final QA, release |
+
+### Key Changes from Stage 1
+
+**Scope:**
+- Stage 1: Planning and hypothesis formation
+- Stage 2: Empirical validation with real users
+
+**Deliverables:**
+- Stage 1: Research instruments and personas (draft)
+- Stage 2: Validated findings, decision memo, updated personas
+
+**Decision Point:**
+- Stage 1: Internal alignment on approach
+- Stage 2: External validation determines GO/HOLD/PIVOT
+
+### Success Criteria (Stage 2)
+
+**Sample Quality:**
+- ✅ N ≥ 40 qualified screener responses
+- ✅ N ≥ 8 completed interviews (target 10)
+- ✅ Segment quotas balanced (Rachel 3, Finn 3, Gia 2, Other 2)
+
+**Data Quality:**
+- ✅ All participants provide pain severity, WTP, switching intent
+- ✅ ≥40 coded excerpts across participants
+- ✅ Inter-coder reliability ≥75% (self-check)
+
+**Threshold Performance:**
+- ✅ ≥5 of 6 core thresholds met (for GO decision)
+- ✅ Charts and dashboard populated with actual data
+- ✅ Decision memo signed off with clear rationale
+
+**Process Quality:**
+- ✅ No PII committed to repository
+- ✅ All incentives delivered within 48 hours
+- ✅ Timeline adherence (completed within 14 days ±2 days)
+
+### Budget (Stage 2)
+
+| Line Item | Amount |
+|-----------|--------|
+| Interview incentives (10 × $25) | $250 |
+| No-show buffer (3 × $25) | $75 |
+| Pilot/extra interviews (3 × $25) | $75 |
+| **Total** | **$400** |
+
+### Next Steps
+
+**After Stage 2 Completion:**
+
+**If GO Decision:**
+1. Update personas with actual interview data
+2. Refine value proposition based on resonance
+3. Prioritize features based on must-haves identified
+4. Begin Stage 3: Solution Definition and MVP scoping
+
+**If HOLD Decision:**
+1. Identify specific gaps in validation
+2. Conduct +3-5 targeted interviews
+3. Revise messaging or concept
+4. Retest and reconvene for decision
+
+**If PIVOT Decision:**
+1. Analyze why hypotheses failed
+2. Identify alternate segment or problem space
+3. Restart Stage 1 with new focus
+4. Retest with revised approach
+
+---
 
 **Next Milestone**: Launch screener survey on 2025-11-01.

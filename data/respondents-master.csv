@@ -1,0 +1,11 @@
+respondent_id,name,email,segment,source,status,notes,consent_obtained_yn,incentive_amount,incentive_status,alias_id
+R001,[REDACTED - DO NOT COMMIT],[REDACTED - DO NOT COMMIT],Rachel,reddit,qualified,"Responded to r/productivity post Nov 1",yes,25,sent,P001
+R002,[REDACTED],[REDACTED],Finn,linkedin,qualified,"Found via LinkedIn PKM group",yes,25,sent,P002
+R003,[REDACTED],[REDACTED],Gia,university,qualified,"Grad student mailing list response",yes,25,sent,P003
+R004,[REDACTED],[REDACTED],Rachel,reddit,qualified,"r/Obsidian community member",yes,25,sent,P004
+R005,[REDACTED],[REDACTED],Other,twitter,qualified,"Twitter #productivity hashtag",yes,25,sent,P005
+R006,[REDACTED],[REDACTED],Finn,discord,qualified,"PKM Discord server member",yes,25,sent,P006
+R007,[REDACTED],[REDACTED],Rachel,reddit,qualified,"r/NoteTaking post response",yes,25,sent,P007
+R008,[REDACTED],[REDACTED],Gia,university,qualified,"Academic library listserv",yes,25,sent,P008
+R009,[REDACTED],[REDACTED],Finn,linkedin,qualified,"Freelancer network group",yes,25,sent,P009
+R010,[REDACTED],[REDACTED],Other,reddit,qualified,"r/GradSchool post response",yes,25,sent,P010

@@ -1,0 +1,10 @@
+alias_id,excerpt_id,raw_excerpt,code_id,secondary_code_id,notes
+P001,E001,"I spend probably 30 minutes every morning just trying to remember what I was working on across Notion, Obsidian, and my email drafts.",PAIN-001,PAIN-008,"Context-switching + cognitive overhead, daily 30min"
+P001,E002,"The worst part is when I know I wrote something down but can't remember which tool I used.",PAIN-002,,"Information fragmentation"
+P001,E003,"I refuse to put client data in Notion. I don't care how convenient it is.",PRIV-001,PAIN-006,"Privacy critical stance, client confidentiality"
+P002,E001,"Every time I start a new client project I have to reorganize everything.",FREQ-004,PAIN-008,"Project-triggered pain, cognitive overhead"
+P002,E002,"I'd pay $10/month if it saves me 30 minutes a day.",WTP-003,,"$5-10/month band, value justification"
+P003,E001,"I didn't realize I'd mentioned the same concept in five different papers until I did a manual search.",PAIN-004,,"Insight blindness"
+P003,E002,"As a student I can't really afford more than a coffee per month.",WTP-002,,"<$5/month, student constraints"
+P004,E001,"If it could notice I mention 'client X' in 5 notes and suggest linking them, that would be magic.",AUTO-001,,"Auto-linking desired, high interest"
+P005,E001,"My notes don't load without WiFi which is a problem on flights.",PAIN-005,,"Sync/cloud issues, offline need"

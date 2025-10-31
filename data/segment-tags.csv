@@ -1,0 +1,11 @@
+alias_id,segment,primary_use_case,privacy_importance_1to10,automation_importance_1to10,semantic_importance_1to10,switching_intent_1to5
+P001,Rachel,research_synthesis,9,8,7,5
+P002,Finn,project_management,8,9,6,4
+P003,Gia,literature_review,7,6,9,4
+P004,Rachel,data_analysis,10,9,8,5
+P005,Other,product_management,6,7,5,3
+P006,Finn,content_creation,7,8,7,5
+P007,Rachel,compliance_research,10,7,6,5
+P008,Gia,academic_research,8,7,9,4
+P009,Finn,multi_client_consulting,7,9,8,4
+P010,Other,software_engineering,5,8,6,3
