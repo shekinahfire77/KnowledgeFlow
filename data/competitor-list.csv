@@ -1,0 +1,11 @@
+name,url,pricing,strengths,weaknesses,gaps
+Obsidian,https://obsidian.md,"Free (sync $10/mo)","Local-first|Graph view|Plugin ecosystem","No built-in automation|Learning curve|Manual linking","Automation|AI integration|User-friendly onboarding"
+Notion,https://notion.so,"Free-$10/mo","Databases|Collaboration|Templates","Cloud-only|Privacy concerns|Slow offline","Privacy|Offline|Local AI"
+OneNote,https://onenote.com,Free,"Handwriting|Office integration|Free","No graph|Limited linking|Cloud-dependent","Semantic graph|Automation|Smart search"
+Logseq,https://logseq.com,Free,"Open-source|Local|Outliner","Complex for non-technical|Limited automation|Steep learning curve","User-friendly automation|AI|Accessible interface"
+Mem,https://mem.ai,"$8-15/mo","AI search|Auto-tagging|Clean interface","Cloud-only|Expensive|Limited graph|No offline","Privacy|Offline|Local AI|One-time purchase option"
+Roam Research,https://roamresearch.com,$15/mo,"Bidirectional links|Daily notes|Network thinking","Expensive|Cloud-only|Confusing pricing|Complex","Privacy|Offline|Affordable|Simpler onboarding"
+Evernote,https://evernote.com,"Free-$10/mo","Universal capture|OCR|Web clipper","Limited linking|No graph|Privacy concerns|Bloated","Semantic connections|Privacy|Local AI|Modern interface"
+DEVONthink,https://devontechnologies.com,$99-199 one-time,"Local|AI features|Powerful search|Mac-native","Mac-only|Expensive|Complex|Dated UI","Windows support|Modern UI|Accessible pricing"
+RemNote,https://remnote.com,"Free-$6/mo","Spaced repetition|Flashcards|Outliner","Niche use case|Complex|Limited automation","Broader use cases|Simpler workflow|Better automation"
+Craft,https://craft.do,"Free-$10/mo","Beautiful design|Collaboration|Templates","Limited graph|Mac/iOS focus|Cloud-dependent","Windows support|Privacy|Offline|Semantic graph"
