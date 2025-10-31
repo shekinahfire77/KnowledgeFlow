@@ -1,0 +1,61 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .input { fill: #ffffff; stroke: #a3a3a3; stroke-width: 1; }
+      .toolbar { fill: #f5f5f5; stroke: #e5e5e5; stroke-width: 1; }
+      .button { fill: #e5e5e5; stroke: #d4d4d4; stroke-width: 1; }
+      .chip { fill: #dbeafe; stroke: #3b82f6; stroke-width: 1; rx: 4; }
+      .text { font-family: sans-serif; font-size: 12px; fill: #171717; }
+      .label { font-family: sans-serif; font-size: 10px; fill: #525252; }
+      .title { font-family: sans-serif; font-size: 20px; font-weight: bold; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" x="0" y="0" width="800" height="600"/>
+
+  <!-- Title Input -->
+  <text class="title" x="40" y="50">Q4 Planning Session</text>
+  <line x1="40" y1="55" x2="760" y2="55" stroke="#e5e5e5" stroke-width="1"/>
+
+  <!-- Formatting Toolbar -->
+  <rect class="toolbar" x="40" y="70" width="720" height="40" rx="4"/>
+  <rect class="button" x="50" y="78" width="32" height="24" rx="2"/>
+  <text class="text" x="66" y="94" text-anchor="middle" font-weight="bold">B</text>
+  <rect class="button" x="90" y="78" width="32" height="24" rx="2"/>
+  <text class="text" x="106" y="94" text-anchor="middle" font-style="italic">I</text>
+  <rect class="button" x="130" y="78" width="32" height="24" rx="2"/>
+  <text class="text" x="146" y="94" text-anchor="middle">🔗</text>
+  <rect class="button" x="170" y="78" width="32" height="24" rx="2"/>
+  <text class="text" x="186" y="94" text-anchor="middle" font-family="monospace">`</text>
+  <rect class="button" x="210" y="78" width="32" height="24" rx="2"/>
+  <text class="text" x="226" y="94" text-anchor="middle">≡</text>
+
+  <text class="label" x="700" y="94">Auto-save: Saved ✓</text>
+
+  <!-- Body Editor -->
+  <rect class="input" x="40" y="120" width="720" height="350" rx="4"/>
+  <text class="text" x="50" y="140">TODO: Review budget</text>
+  <text class="text" x="50" y="165">## Key Points</text>
+  <text class="text" x="50" y="185">- Revenue target: $500k</text>
+  <text class="text" x="50" y="205">- Hiring freeze until Q1</text>
+  <text class="text" x="50" y="225">- Team expansion deferred</text>
+  <text class="label" x="50" y="250" font-style="italic">Type / for commands...</text>
+
+  <!-- Tags Section -->
+  <text class="label" x="40" y="495">Tags:</text>
+  <rect class="chip" x="40" y="502" width="60" height="24"/>
+  <text class="text" x="70" y="518" text-anchor="middle">planning</text>
+  <rect class="chip" x="108" y="502" width="30" height="24"/>
+  <text class="text" x="123" y="518" text-anchor="middle">q4</text>
+  <rect class="chip" x="146" y="502" width="48" height="24"/>
+  <text class="text" x="170" y="518" text-anchor="middle">budget</text>
+
+  <text class="label" x="210" y="518">Suggested:</text>
+  <rect class="chip" x="265" y="502" width="90" height="24" fill="transparent" stroke-dasharray="2,2"/>
+  <text class="text" x="310" y="518" text-anchor="middle">+ revenue-target</text>
+
+  <!-- Status Bar -->
+  <text class="label" x="40" y="565">456 words • Last edited 2 hours ago • Ctrl+S to save manually</text>
+</svg>

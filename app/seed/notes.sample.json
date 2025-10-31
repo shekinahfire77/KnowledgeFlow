@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Introduction to Machine Learning",
+    "body": "Machine learning is a subset of artificial intelligence that focuses on building systems that learn from data. Key concepts include:\n\n- Supervised learning: training with labeled data\n- Unsupervised learning: finding patterns in unlabeled data\n- Reinforcement learning: learning through trial and error\n\nCommon algorithms include decision trees, neural networks, and support vector machines.\n\nTODO: Review gradient descent algorithm\n- [ ] Study backpropagation\n- [ ] Implement simple neural network",
+    "tags": ["machine-learning", "ai", "education"]
+  },
+  {
+    "title": "Project Planning: KnowledgeFlow App",
+    "body": "Goals for the KnowledgeFlow application:\n\n1. Semantic search and linking between notes\n2. Automatic task extraction from content\n3. Daily digest generation\n4. Graph visualization of note connections\n\nPhase 1: Core functionality (database, CRUD operations)\nPhase 2: Semantic features (TF-IDF, link building)\nPhase 3: UI polish and testing\n\nTarget launch: Q2 2024\n\n- [ ] Complete database schema\n- [x] Set up React frontend\n- [ ] Implement semantic engine",
+    "tags": ["project", "planning", "knowledgeflow"]
+  },
+  {
+    "title": "Recipe: Homemade Pizza Dough",
+    "body": "Ingredients:\n- 3 cups all-purpose flour\n- 1 packet active dry yeast\n- 1 tablespoon sugar\n- 1 teaspoon salt\n- 2 tablespoons olive oil\n- 1 cup warm water\n\nInstructions:\n1. Dissolve yeast and sugar in warm water, let sit 5 minutes\n2. Mix flour and salt in large bowl\n3. Add yeast mixture and olive oil\n4. Knead for 10 minutes until smooth\n5. Let rise 1 hour until doubled\n6. Punch down and shape as desired\n\nPerfect for Friday pizza nights!",
+    "tags": ["recipe", "cooking", "food"]
+  },
+  {
+    "title": "Book Notes: Atomic Habits",
+    "body": "Key takeaways from 'Atomic Habits' by James Clear:\n\n**The Four Laws of Behavior Change:**\n1. Make it obvious (cue)\n2. Make it attractive (craving)\n3. Make it easy (response)\n4. Make it satisfying (reward)\n\n**Important concepts:**\n- Focus on systems, not goals\n- Habits are the compound interest of self-improvement\n- Environment design is crucial\n- Identity-based habits are most sustainable\n\n\"You do not rise to the level of your goals. You fall to the level of your systems.\"\n\n- [ ] Implement habit stacking technique\n- [ ] Design better environment for writing",
+    "tags": ["books", "productivity", "habits"]
+  },
+  {
+    "title": "TypeScript Best Practices",
+    "body": "Essential TypeScript patterns for better code:\n\n**Type Safety:**\n- Always define explicit return types for functions\n- Use interfaces for object shapes\n- Leverage union types for flexible APIs\n- Avoid 'any' - use 'unknown' instead\n\n**Code Organization:**\n- Separate types into dedicated files\n- Use barrel exports (index.ts)\n- Prefer type composition over inheritance\n\n**Common Patterns:**\n```typescript\n// Discriminated unions\ntype Result<T> = { success: true; data: T } | { success: false; error: string };\n\n// Utility types\ntype Partial<T> = { [P in keyof T]?: T[P] };\n```\n\nRemember: TypeScript is about making invalid states unrepresentable.",
+    "tags": ["typescript", "programming", "best-practices"]
+  },
+  {
+    "title": "Meeting Notes: Q1 Review",
+    "body": "Date: March 15, 2024\nAttendees: Team leads, product managers\n\n**Q1 Achievements:**\n- Launched new feature set\n- Improved response time by 40%\n- User base grew 25%\n\n**Q2 Priorities:**\n1. Mobile app development\n2. API v2 release\n3. Performance optimization\n\n**Action Items:**\n- [ ] Schedule mobile kickoff meeting\n- [ ] Finalize API v2 spec\n- [ ] Review infrastructure costs\n\nNext review: June 15, 2024",
+    "tags": ["meetings", "work", "quarterly-review"]
+  },
+  {
+    "title": "Gardening Tips for Spring",
+    "body": "Spring gardening checklist:\n\n**Preparation:**\n- Test soil pH and amend as needed\n- Clear winter debris\n- Prune dead branches\n- Apply compost to beds\n\n**Planting Schedule:**\n- Early spring: peas, lettuce, spinach\n- Mid spring: tomatoes, peppers (after last frost)\n- Late spring: beans, cucumbers, squash\n\n**Maintenance:**\n- Water deeply but infrequently\n- Mulch to retain moisture\n- Watch for pests (aphids, slugs)\n\nRemember: \"The best time to plant a tree was 20 years ago. The second best time is now.\"\n\n- [ ] Order heirloom tomato seeds\n- [ ] Build raised bed for herbs",
+    "tags": ["gardening", "hobbies", "spring"]
+  },
+  {
+    "title": "Travel Itinerary: Japan 2024",
+    "body": "Two-week trip to Japan - October 2024\n\n**Tokyo (4 days):**\n- Sensoji Temple\n- Shibuya Crossing\n- Tsukiji Outer Market\n- TeamLab Borderless\n\n**Kyoto (4 days):**\n- Fushimi Inari Shrine\n- Arashiyama Bamboo Grove\n- Kinkaku-ji (Golden Pavilion)\n- Gion district\n\n**Osaka (3 days):**\n- Osaka Castle\n- Dotonbori\n- Kuromon Market\n- Day trip to Nara\n\n**Hakone (3 days):**\n- Hot springs (onsen)\n- Lake Ashi\n- Hakone Open-Air Museum\n\n- [ ] Book ryokan in Hakone\n- [ ] Reserve JR Pass\n- [ ] Learn basic Japanese phrases",
+    "tags": ["travel", "japan", "planning"]
+  },
+  {
+    "title": "Fitness Goals 2024",
+    "body": "Annual fitness objectives:\n\n**Strength Training:**\n- Increase bench press to 225 lbs\n- Achieve 10 pull-ups\n- Deadlift 315 lbs\n\n**Cardio:**\n- Run a half marathon (sub 2 hours)\n- Cycle 100 miles in one ride\n\n**Flexibility:**\n- Touch toes without bending knees\n- Hold plank for 3 minutes\n\n**Weekly Schedule:**\n- Monday/Thursday: Upper body\n- Tuesday/Friday: Lower body\n- Wednesday: Cardio\n- Saturday: Active recovery (yoga, swimming)\n- Sunday: Rest\n\n- [ ] Join new gym\n- [ ] Hire personal trainer for form check\n- [x] Buy running shoes\n- [ ] Track macros consistently",
+    "tags": ["fitness", "health", "goals"]
+  },
+  {
+    "title": "Database Design Principles",
+    "body": "Core principles for effective database design:\n\n**Normalization:**\n- 1NF: Eliminate repeating groups\n- 2NF: Remove partial dependencies\n- 3NF: Remove transitive dependencies\n- BCNF: Boyce-Codd normal form\n\nBut remember: denormalization is sometimes necessary for performance!\n\n**Indexing Strategy:**\n- Index foreign keys\n- Index frequently queried columns\n- Avoid over-indexing (write performance cost)\n- Consider covering indexes for complex queries\n\n**Schema Evolution:**\n- Use migrations for version control\n- Never delete columns directly (deprecate first)\n- Add columns as nullable initially\n- Test migration rollback paths\n\n**Performance Tips:**\n- Use connection pooling\n- Implement proper caching\n- Monitor slow query logs\n- Regular VACUUM/ANALYZE (PostgreSQL)\n\nRelated concepts: ACID properties, CAP theorem, eventual consistency",
+    "tags": ["database", "design", "engineering"]
+  }
+]

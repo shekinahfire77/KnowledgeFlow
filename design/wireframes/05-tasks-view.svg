@@ -1,0 +1,76 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .panel { fill: #f5f5f5; stroke: #e5e5e5; stroke-width: 1; }
+      .card { fill: #ffffff; stroke: #e5e5e5; stroke-width: 1; }
+      .checkbox { fill: #ffffff; stroke: #a3a3a3; stroke-width: 2; }
+      .checkboxChecked { fill: #10b981; stroke: #059669; stroke-width: 2; }
+      .button { fill: #3b82f6; }
+      .link { fill: #3b82f6; text-decoration: underline; }
+      .text { font-family: sans-serif; font-size: 12px; fill: #171717; }
+      .label { font-family: sans-serif; font-size: 10px; fill: #525252; }
+      .title { font-family: sans-serif; font-size: 16px; font-weight: bold; }
+      .heading { font-family: sans-serif; font-size: 14px; font-weight: bold; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" x="0" y="0" width="800" height="600"/>
+
+  <!-- Header -->
+  <text class="title" x="40" y="40">Tasks (Action Items)</text>
+  <text class="label" x="40" y="60">Extracted from notes • Ctrl+3</text>
+
+  <!-- Tab Navigation -->
+  <rect fill="#3b82f6" x="40" y="75" width="90" height="32" rx="4"/>
+  <text class="text" x="85" y="95" text-anchor="middle" fill="#ffffff">Pending (5)</text>
+  <rect fill="#e5e5e5" x="138" y="75" width="100" height="32" rx="4"/>
+  <text class="text" x="188" y="95" text-anchor="middle">Completed (12)</text>
+  <rect fill="#e5e5e5" x="246" y="75" width="95" height="32" rx="4"/>
+  <text class="text" x="293" y="95" text-anchor="middle">Dismissed (3)</text>
+
+  <!-- Filter/Sort -->
+  <text class="label" x="650" y="95">Sort by: ▼ Date extracted</text>
+
+  <!-- Empty State Note -->
+  <rect class="panel" x="40" y="120" width="720" height="40" rx="4"/>
+  <text class="label" x="50" y="143">💡 Enable "Extract Actions" in Settings to auto-detect TODO items in notes</text>
+
+  <!-- Task Cards -->
+  <rect class="card" x="40" y="175" width="720" height="70" rx="4"/>
+  <rect class="checkbox" x="55" y="195" width="20" height="20" rx="3"/>
+  <text class="text" x="90" y="210" font-weight="600">Review budget for next quarter</text>
+  <text class="label" x="90" y="225">From: Q4 Planning Notes • Extracted 2 hours ago</text>
+  <text class="link" x="90" y="238" font-size="11">📄 Open Note</text>
+  <text class="label" x="170" y="238" font-size="11">| ✕ Dismiss</text>
+
+  <rect class="card" x="40" y="255" width="720" height="70" rx="4"/>
+  <rect class="checkbox" x="55" y="275" width="20" height="20" rx="3"/>
+  <text class="text" x="90" y="290" font-weight="600">Schedule demo for stakeholders</text>
+  <text class="label" x="90" y="305">From: Meeting Notes - Team Sync • Extracted 1 day ago</text>
+  <text class="link" x="90" y="318" font-size="11">📄 Open Note</text>
+
+  <rect class="card" x="40" y="335" width="720" height="70" rx="4"/>
+  <rect class="checkbox" x="55" y="355" width="20" height="20" rx="3"/>
+  <text class="text" x="90" y="370" font-weight="600">Update documentation</text>
+  <text class="label" x="90" y="385">From: Meeting Notes - Team Sync • Extracted 1 day ago</text>
+  <text class="link" x="90" y="398" font-size="11">📄 Open Note</text>
+
+  <rect class="card" x="40" y="415" width="720" height="70" rx="4"/>
+  <rect class="checkbox" x="55" y="435" width="20" height="20" rx="3"/>
+  <text class="text" x="90" y="450" font-weight="600">Call client regarding Q1 contract</text>
+  <text class="label" x="90" y="465">From: Client Follow-up • Extracted 3 days ago</text>
+  <text class="link" x="90" y="478" font-size="11">📄 Open Note</text>
+
+  <!-- Completed Task Example -->
+  <text class="heading" x="40" y="520" fill="#10b981">✓ Recently Completed</text>
+  <rect class="card" x="40" y="530" width="720" height="50" rx="4"/>
+  <rect class="checkboxChecked" x="55" y="545" width="20" height="20" rx="3"/>
+  <text x="60" y="560" font-size="14" fill="#ffffff">✓</text>
+  <text class="text" x="90" y="560" fill="#525252" text-decoration="line-through">Set up encryption keys</text>
+  <text class="label" x="90" y="572">Completed 5 hours ago</text>
+
+  <!-- Bulk Actions -->
+  <text class="label" x="40" y="595">Select tasks: Ctrl+Click • Bulk actions: Mark all done | Delete selected</text>
+</svg>

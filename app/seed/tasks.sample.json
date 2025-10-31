@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Review gradient descent algorithm",
+    "status": "pending",
+    "due_at": "2024-04-15T09:00:00Z"
+  },
+  {
+    "title": "Complete database schema",
+    "status": "pending",
+    "due_at": "2024-04-10T17:00:00Z"
+  },
+  {
+    "title": "Buy running shoes",
+    "status": "completed",
+    "due_at": null
+  },
+  {
+    "title": "Book ryokan in Hakone",
+    "status": "pending",
+    "due_at": "2024-05-01T12:00:00Z"
+  },
+  {
+    "title": "Finalize API v2 spec",
+    "status": "pending",
+    "due_at": "2024-04-20T10:00:00Z"
+  }
+]

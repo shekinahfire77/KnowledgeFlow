@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "description": "KnowledgeFlow Design System - Typography Scale",
+  "version": "0.1.0",
+  "fontSize": {
+    "xs": "12px",
+    "sm": "14px",
+    "base": "16px",
+    "lg": "18px",
+    "xl": "20px",
+    "2xl": "24px",
+    "3xl": "30px",
+    "4xl": "36px",
+    "5xl": "48px"
+  },
+  "fontWeight": {
+    "normal": 400,
+    "medium": 500,
+    "semibold": 600,
+    "bold": 700
+  },
+  "lineHeight": {
+    "tight": 1.25,
+    "normal": 1.5,
+    "relaxed": 1.75,
+    "loose": 2.0
+  },
+  "letterSpacing": {
+    "tighter": "-0.05em",
+    "tight": "-0.025em",
+    "normal": "0em",
+    "wide": "0.025em",
+    "wider": "0.05em",
+    "widest": "0.1em"
+  },
+  "fontFamily": {
+    "sans": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+    "serif": "Georgia, Cambria, 'Times New Roman', Times, serif",
+    "mono": "'Cascadia Code', 'Fira Code', 'Fira Mono', Consolas, 'Courier New', monospace"
+  },
+  "usage": {
+    "pageTitle": {
+      "fontSize": "3xl",
+      "fontWeight": "semibold",
+      "lineHeight": "tight",
+      "letterSpacing": "tight"
+    },
+    "sectionHeading": {
+      "fontSize": "2xl",
+      "fontWeight": "semibold",
+      "lineHeight": "tight",
+      "letterSpacing": "normal"
+    },
+    "noteTitle": {
+      "fontSize": "xl",
+      "fontWeight": "semibold",
+      "lineHeight": "normal",
+      "letterSpacing": "normal"
+    },
+    "bodyText": {
+      "fontSize": "base",
+      "fontWeight": "normal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal"
+    },
+    "bodyLarge": {
+      "fontSize": "lg",
+      "fontWeight": "normal",
+      "lineHeight": "relaxed",
+      "letterSpacing": "normal"
+    },
+    "secondaryText": {
+      "fontSize": "sm",
+      "fontWeight": "normal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal"
+    },
+    "caption": {
+      "fontSize": "xs",
+      "fontWeight": "normal",
+      "lineHeight": "normal",
+      "letterSpacing": "wide"
+    },
+    "button": {
+      "fontSize": "sm",
+      "fontWeight": "medium",
+      "lineHeight": "tight",
+      "letterSpacing": "normal"
+    },
+    "buttonLarge": {
+      "fontSize": "base",
+      "fontWeight": "medium",
+      "lineHeight": "tight",
+      "letterSpacing": "normal"
+    },
+    "code": {
+      "fontSize": "sm",
+      "fontWeight": "normal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "fontFamily": "mono"
+    },
+    "label": {
+      "fontSize": "sm",
+      "fontWeight": "medium",
+      "lineHeight": "tight",
+      "letterSpacing": "wide"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #fafafa; }
+      .node { fill: #60a5fa; stroke: #3b82f6; stroke-width: 2; }
+      .nodeSelected { fill: #3b82f6; stroke: #1d4ed8; stroke-width: 3; }
+      .edge { stroke: #a3a3a3; stroke-width: 2; }
+      .edgeStrong { stroke: #525252; stroke-width: 3; }
+      .panel { fill: #ffffff; stroke: #e5e5e5; stroke-width: 1; }
+      .button { fill: #3b82f6; }
+      .text { font-family: sans-serif; font-size: 11px; fill: #171717; }
+      .label { font-family: sans-serif; font-size: 10px; fill: #525252; }
+      .title { font-family: sans-serif; font-size: 14px; font-weight: bold; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" x="0" y="0" width="800" height="600"/>
+
+  <!-- Title/Toolbar -->
+  <rect class="panel" x="0" y="0" width="800" height="50"/>
+  <text class="title" x="20" y="30">Semantic Map (Graph View)</text>
+  <rect class="button" x="650" y="15" width="130" height="28" rx="4"/>
+  <text class="text" x="715" y="33" text-anchor="middle" fill="#ffffff">Rebuild Graph (Ctrl+R)</text>
+
+  <!-- Graph Canvas -->
+  <!-- Edges -->
+  <line class="edge" x1="200" y1="200" x2="350" y2="250"/>
+  <line class="edgeStrong" x1="200" y1="200" x2="300" y2="350"/>
+  <line class="edge" x1="350" y1="250" x2="550" y2="200"/>
+  <line class="edge" x1="350" y1="250" x2="450" y2="400"/>
+  <line class="edge" x1="550" y1="200" x2="600" y2="350"/>
+
+  <!-- Nodes -->
+  <circle class="nodeSelected" cx="200" cy="200" r="35"/>
+  <text class="text" x="200" y="205" text-anchor="middle" fill="#ffffff">Q4 Planning</text>
+
+  <circle class="node" cx="350" cy="250" r="30"/>
+  <text class="text" x="350" y="255" text-anchor="middle" fill="#ffffff">Budget Review</text>
+
+  <circle class="node" cx="550" cy="200" r="28"/>
+  <text class="text" x="550" y="205" text-anchor="middle" fill="#ffffff">Revenue</text>
+
+  <circle class="node" cx="300" cy="350" r="32"/>
+  <text class="text" x="300" y="355" text-anchor="middle" fill="#ffffff">Team Planning</text>
+
+  <circle class="node" cx="450" cy="400" r="26"/>
+  <text class="text" x="450" y="405" text-anchor="middle" fill="#ffffff">Hiring</text>
+
+  <circle class="node" cx="600" cy="350" r="29"/>
+  <text class="text" x="600" y="355" text-anchor="middle" fill="#ffffff">Targets</text>
+
+  <!-- Tooltip (for selected node) -->
+  <rect class="panel" x="250" y="130" width="180" height="50" rx="4"/>
+  <text class="title" x="260" y="150">Q4 Planning Session</text>
+  <text class="label" x="260" y="165">Double-click to open</text>
+  <text class="label" x="260" y="175">5 connections • 456 words</text>
+
+  <!-- Right Panel (Filters) -->
+  <rect class="panel" x="680" y="60" width="110" height="530"/>
+  <text class="title" x="690" y="80">Filters</text>
+  <text class="label" x="690" y="100">Filter by tags:</text>
+  <text class="text" x="695" y="120">☐ planning (5)</text>
+  <text class="text" x="695" y="140">☐ budget (3)</text>
+  <text class="text" x="695" y="160">☐ q4 (4)</text>
+  <text class="text" x="695" y="180">☐ technical (2)</text>
+
+  <text class="label" x="690" y="210">Link weight:</text>
+  <rect fill="#e5e5e5" x="690" y="220" width="90" height="4" rx="2"/>
+  <circle fill="#3b82f6" cx="730" cy="222" r="6"/>
+
+  <text class="label" x="690" y="250">Legend:</text>
+  <line class="edgeStrong" x1="690" y1="260" x2="720" y2="260"/>
+  <text class="label" x="725" y="264">Strong link (≥0.7)</text>
+  <line class="edge" x1="690" y1="275" x2="720" y2="275"/>
+  <text class="label" x="725" y="279">Weak link (<0.7)</text>
+
+  <!-- Status Bar -->
+  <text class="label" x="20" y="580">100 notes • 45 links • Pan: drag • Zoom: scroll • Select: click • Open: double-click</text>
+</svg>

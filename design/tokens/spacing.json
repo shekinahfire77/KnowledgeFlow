@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "description": "KnowledgeFlow Design System - Spacing & Layout Tokens",
+  "version": "0.1.0",
+  "spacing": {
+    "0": "0",
+    "1": "4px",
+    "2": "8px",
+    "3": "12px",
+    "4": "16px",
+    "5": "20px",
+    "6": "24px",
+    "7": "28px",
+    "8": "32px",
+    "9": "36px",
+    "10": "40px",
+    "11": "44px",
+    "12": "48px",
+    "14": "56px",
+    "16": "64px",
+    "20": "80px",
+    "24": "96px",
+    "28": "112px",
+    "32": "128px"
+  },
+  "borderRadius": {
+    "none": "0",
+    "sm": "4px",
+    "md": "8px",
+    "lg": "12px",
+    "xl": "16px",
+    "2xl": "24px",
+    "full": "9999px"
+  },
+  "borderWidth": {
+    "0": "0",
+    "1": "1px",
+    "2": "2px",
+    "4": "4px",
+    "8": "8px"
+  },
+  "shadows": {
+    "none": "none",
+    "sm": "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
+    "md": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+    "lg": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+    "xl": "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+    "2xl": "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
+    "inner": "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)",
+    "outline": "0 0 0 3px rgba(59, 130, 246, 0.5)"
+  },
+  "sizes": {
+    "icon": {
+      "xs": "12px",
+      "sm": "16px",
+      "md": "20px",
+      "lg": "24px",
+      "xl": "32px",
+      "2xl": "48px"
+    },
+    "button": {
+      "sm": "32px",
+      "md": "40px",
+      "lg": "48px"
+    },
+    "input": {
+      "sm": "32px",
+      "md": "40px",
+      "lg": "48px"
+    },
+    "avatar": {
+      "xs": "24px",
+      "sm": "32px",
+      "md": "40px",
+      "lg": "48px",
+      "xl": "64px",
+      "2xl": "96px"
+    }
+  },
+  "zIndex": {
+    "base": 0,
+    "dropdown": 1000,
+    "sticky": 1100,
+    "fixed": 1200,
+    "modal": 1300,
+    "overlay": 1400,
+    "popover": 1500,
+    "toast": 1600,
+    "tooltip": 1700
+  },
+  "maxWidth": {
+    "xs": "320px",
+    "sm": "384px",
+    "md": "448px",
+    "lg": "512px",
+    "xl": "576px",
+    "2xl": "672px",
+    "3xl": "768px",
+    "4xl": "896px",
+    "5xl": "1024px",
+    "6xl": "1152px",
+    "7xl": "1280px",
+    "prose": "65ch",
+    "screen-sm": "640px",
+    "screen-md": "768px",
+    "screen-lg": "1024px",
+    "screen-xl": "1280px",
+    "screen-2xl": "1536px"
+  },
+  "layout": {
+    "sidebar": {
+      "width": "300px",
+      "minWidth": "200px",
+      "maxWidth": "400px"
+    },
+    "toolbar": {
+      "height": "48px"
+    },
+    "statusBar": {
+      "height": "24px"
+    },
+    "gutter": "40px",
+    "containerPadding": "24px"
+  },
+  "animation": {
+    "duration": {
+      "fast": "100ms",
+      "normal": "200ms",
+      "slow": "300ms",
+      "slower": "500ms"
+    },
+    "easing": {
+      "linear": "linear",
+      "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+      "easeOut": "cubic-bezier(0, 0, 0.2, 1)",
+      "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)"
+    }
+  },
+  "breakpoints": {
+    "sm": "640px",
+    "md": "768px",
+    "lg": "1024px",
+    "xl": "1280px",
+    "2xl": "1536px"
+  }
+}

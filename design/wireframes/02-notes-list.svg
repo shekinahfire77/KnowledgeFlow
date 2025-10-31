@@ -1,0 +1,52 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .sidebar { fill: #f5f5f5; stroke: #e5e5e5; stroke-width: 1; }
+      .input { fill: #ffffff; stroke: #a3a3a3; stroke-width: 1; }
+      .card { fill: #ffffff; stroke: #e5e5e5; stroke-width: 1; }
+      .button { fill: #3b82f6; }
+      .text { font-family: sans-serif; font-size: 12px; fill: #171717; }
+      .label { font-family: sans-serif; font-size: 10px; fill: #525252; }
+      .title { font-family: sans-serif; font-size: 14px; font-weight: bold; }
+    </style>
+  </defs>
+
+  <!-- Sidebar -->
+  <rect class="sidebar" x="0" y="0" width="300" height="600"/>
+  <text class="title" x="16" y="30">Notes</text>
+
+  <!-- Search Bar -->
+  <rect class="input" x="16" y="40" width="268" height="32" rx="4"/>
+  <text class="label" x="24" y="60">🔍 Search notes... (Ctrl+F)</text>
+
+  <!-- New Note Button -->
+  <rect class="button" x="16" y="82" width="268" height="36" rx="4"/>
+  <text class="text" x="150" y="104" text-anchor="middle" fill="#ffffff">+ New Note (Ctrl+N)</text>
+
+  <!-- Note Cards -->
+  <rect class="card" x="16" y="130" width="268" height="80" rx="4"/>
+  <text class="title" x="24" y="150">Q4 Planning Session</text>
+  <text class="text" x="24" y="165">TODO: Review budget and...</text>
+  <text class="label" x="24" y="198">[planning] [q4] [budget]</text>
+
+  <rect class="card" x="16" y="220" width="268" height="80" rx="4"/>
+  <text class="title" x="24" y="240">User Research Findings</text>
+  <text class="text" x="24" y="255">Privacy is critical (9/10 rating)</text>
+  <text class="label" x="24" y="288">[research] [validation]</text>
+
+  <rect class="card" x="16" y="310" width="268" height="80" rx="4"/>
+  <text class="title" x="24" y="330">Technical Architecture</text>
+  <text class="text" x="24" y="345">Decided on Tauri + React...</text>
+  <text class="label" x="24" y="378">[technical] [architecture]</text>
+
+  <!-- Main Content (Preview) -->
+  <rect class="bg" x="300" y="0" width="500" height="600" stroke="#e5e5e5"/>
+  <text class="title" x="320" y="30">Q4 Planning Session</text>
+  <text class="label" x="320" y="50">Updated 2 hours ago</text>
+  <text class="text" x="320" y="80">TODO: Review budget</text>
+  <text class="text" x="320" y="100">## Key Points</text>
+  <text class="text" x="320" y="120">- Revenue target: $500k</text>
+  <text class="text" x="320" y="140">- Hiring freeze until Q1</text>
+  <text class="label" x="320" y="570">Click to edit • Ctrl+2 to open editor</text>
+</svg>
