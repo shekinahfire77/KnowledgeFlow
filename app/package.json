@@ -34,7 +34,7 @@
     "react-cytoscapejs": "^2.0.0",
     "compromise": "^14.10.0",
     "sodium-native": "^4.0.4",
-    "uuid": "^9.0.1",
+    "uuid": "^14.0.0",
     "nanoid": "^5.0.4",
     "date-fns": "^2.30.0",
     "dompurify": "^3.0.6",
